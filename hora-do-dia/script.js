@@ -2,8 +2,8 @@ function carregar(){
     const msg = document.getElementById('msg')
     const img = document.getElementById('imagem')
     const data = new Date()
-    const hora = 9
-    //const hora = data.getHours()
+    //const hora = 9
+    const hora = data.getHours()
     const minuto = data.getMinutes()
     const bgcolor = document.querySelector('body')
     msg.innerHTML = `Agora são ${hora} horas e ${minuto} minutos.`
