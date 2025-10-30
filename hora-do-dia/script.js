@@ -23,6 +23,4 @@ function carregar(){
         bgcolor.style.background = 'black'
         msg.innerHTML += ' Boa Noite!'
     }
-
-
 }
